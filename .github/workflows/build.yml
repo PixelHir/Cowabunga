@@ -3,6 +3,7 @@ name: Build Cowabunga
 on:
   push:
     branches: [ "gh-actions" ]
+  workflow_dispatch:
 
 jobs:
   build:
